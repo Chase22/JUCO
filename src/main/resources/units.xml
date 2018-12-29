@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<groups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="file:///home/lukas/IdeaProjects/juco/src/main/resources/unitshema.xsd">
+<groups xmlns="https://raw.githubusercontent.com/Chase22/JUCO/dev/src/main/resources/unitshema.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.w3schools.com https://raw.githubusercontent.com/Chase22/JUCO/dev/src/main/resources/unitshema.xsd">
     <group name="length">
         <!-- Conversion rates taken from www.unitconverters.net -->
         <unit>
