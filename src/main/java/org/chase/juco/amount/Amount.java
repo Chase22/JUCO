@@ -16,7 +16,9 @@ public class Amount {
             throw new ConversionGroupException();
         }
 
-        double amountBase = this.amount / this.unit.getConversion();
+        double amountPrefix = unit.getPrefix() == null ? this.amount : this.amount / unit.getPrefix().getFactor();
+
+        double amountBase = amountPrefix / this.unit.getConversion();
 
         return Amount.builder()
                 .amount(amountBase * unit.getConversion())
