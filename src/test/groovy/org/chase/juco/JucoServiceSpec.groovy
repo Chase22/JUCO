@@ -1,5 +1,9 @@
-package org.chase.juco.base
+package org.chase.juco
 
+import org.chase.juco.amount.Amount
+import org.chase.juco.unit.Unit
+import org.chase.juco.unit.UnitGroup
+import org.chase.juco.unit.UnitRegistry
 import spock.lang.Specification
 import spock.lang.Unroll
 

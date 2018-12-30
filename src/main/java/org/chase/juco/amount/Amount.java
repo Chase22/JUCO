@@ -1,8 +1,9 @@
-package org.chase.juco.base;
+package org.chase.juco.amount;
 
 import lombok.Builder;
 import lombok.Data;
 import org.chase.juco.exceptions.ConversionGroupException;
+import org.chase.juco.unit.Unit;
 
 @Data
 @Builder

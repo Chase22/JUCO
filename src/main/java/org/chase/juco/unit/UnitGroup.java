@@ -1,4 +1,4 @@
-package org.chase.juco.base;
+package org.chase.juco.unit;
 
 import lombok.Data;
 import org.chase.juco.exceptions.NoBaseUnitException;

@@ -1,4 +1,4 @@
-package org.chase.juco.base;
+package org.chase.juco.unit;
 
 import java.util.Collection;
 import java.util.List;

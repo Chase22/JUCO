@@ -1,5 +1,7 @@
-package org.chase.juco.base
+package org.chase.juco.amount
 
+import org.chase.juco.unit.Unit
+import org.chase.juco.unit.UnitGroup
 import spock.lang.Specification
 
 class AmountClassSpec extends Specification {
