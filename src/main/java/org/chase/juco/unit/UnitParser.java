@@ -63,7 +63,7 @@ public class UnitParser {
         Unit unit = new Unit();
 
         unit.setName(unitElement.getChildText("name", ns));
-        unit.setConversion(parseDouble(unitElement.getChildText("conversionRate", ns)));
+        unit.setConversionRate(parseDouble(unitElement.getChildText("conversionRate", ns)));
         unit.setShorthand(unitElement.getChildText("shorthand", ns));
 
         if (unit.getShorthand() == null) {
