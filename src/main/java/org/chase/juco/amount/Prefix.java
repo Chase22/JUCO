@@ -2,6 +2,10 @@ package org.chase.juco.amount;
 
 import lombok.Getter;
 
+/**
+ * Valid SI Unit Prefixes
+ * @see <a href=https://en.wikipedia.org/wiki/Metric_prefix>https://en.wikipedia.org/wiki/Metric_prefix</a>
+ */
 @SuppressWarnings("unused")
 @Getter
 public enum Prefix {
@@ -31,6 +35,13 @@ public enum Prefix {
         this.symbol = symbol;
     }
 
+    /**
+     * The factor applied to the unit prefixed
+     */
     private final Double factor;
+
+    /**
+     * The short symbol of the unit
+     */
     private final String symbol;
 }
