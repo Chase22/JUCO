@@ -12,7 +12,12 @@ import java.text.DecimalFormat
 class JucoServiceSpec extends Specification {
     public static final BigDecimal ERROR_MARGIN_PERCENT = 0.000001 //in %
 
-    UnitRegistry registry = UnitRegistry.instance
+    static UnitRegistry registry
+
+    void setupSpec() {
+        UnitRegistry.initialise()
+        registry = UnitRegistry.instance
+    }
 
     @Unroll
     def "Converting #givenAmount #fromUnit to #toUnit should result in #expectedAmount"(
@@ -30,8 +35,6 @@ class JucoServiceSpec extends Specification {
         double result = feetAmount.convertTo(to).getAmount()
 
         then:
-        DecimalFormat df = new DecimalFormat("#.##########%")
-        println df.format(calculateErrorInPercent(result, expectedAmount))
         calculateErrorInPercent(result, expectedAmount) < ERROR_MARGIN_PERCENT
 
         where:
@@ -39,7 +42,7 @@ class JucoServiceSpec extends Specification {
         25          | "foot"              | "meter" || 7.62
         18          | "foot"              | "inch"  || 216
         1           | "astronomical unit" | "meter" || 149597870691d
-        1           | "au" | "meter" || 149597870691d
+        1           | "au"                | "meter" || 149597870691d
 
     }
 
