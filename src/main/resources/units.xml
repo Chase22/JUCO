@@ -313,4 +313,37 @@
             <conversionRate>1.0936132983</conversionRate>
         </unit>
     </group>
+    <group name="temperature">
+        <unit>
+            <name>Kelvin</name>
+            <shorthand>K</shorthand>
+            <conversionRate>1</conversionRate>
+            <baseUnit>true</baseUnit>
+        </unit>
+        <unit>
+            <name>Celcius</name>
+            <shorthand>C</shorthand>
+            <conversionRate>-272.15</conversionRate>
+        </unit>
+        <unit>
+            <name>Fahrenheit</name>
+            <shorthand>F</shorthand>
+            <conversionRate>-457.87</conversionRate>
+        </unit>
+        <unit>
+            <name>Rankine</name>
+            <shorthand>R</shorthand>
+            <conversionRate>1.8</conversionRate>
+        </unit>
+        <unit>
+            <name>Reaumur</name>
+            <shorthand>Re</shorthand>
+            <conversionRate>-217.72</conversionRate>
+        </unit>
+        <unit>
+            <name>Planck temperature</name>
+            <shorthand>ϴ</shorthand>
+            <conversionRate>7.0579906e-33</conversionRate>
+        </unit>
+    </group>
 </groups>
