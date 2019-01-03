@@ -1,13 +1,10 @@
 package org.chase.juco.amount;
 
-import lombok.Getter;
-
 /**
  * Valid SI Unit Prefixes
  * @see <a href=https://en.wikipedia.org/wiki/Metric_prefix>https://en.wikipedia.org/wiki/Metric_prefix</a>
  */
 @SuppressWarnings("unused")
-@Getter
 public enum Prefix {
     YOTTA(10E+24, "Y"),
     ZETTA(10E+21, "Z"),
@@ -44,4 +41,12 @@ public enum Prefix {
      * The short symbol of the unit
      */
     private final String symbol;
+
+    public Double getFactor() {
+        return this.factor;
+    }
+
+    public String getSymbol() {
+        return this.symbol;
+    }
 }
