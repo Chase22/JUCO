@@ -55,7 +55,8 @@ public class Unit {
      */
     private double conversionRate;
 
-    @java.beans.ConstructorProperties({"unitgroup", "prefix", "baseUnit", "name", "shorthand", "conversionRate"})
+    public Unit() {}
+
     public Unit(final UnitGroup unitgroup, final Prefix prefix, final boolean baseUnit, final String name, final String shorthand, final double conversionRate) {
         this.unitgroup = unitgroup;
         this.prefix = prefix;

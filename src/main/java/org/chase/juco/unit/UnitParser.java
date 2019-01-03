@@ -6,8 +6,7 @@ import org.jdom2.JDOMException;
 import org.jdom2.Namespace;
 import org.jdom2.input.SAXBuilder;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,12 +15,18 @@ import java.util.stream.Collectors;
 import static java.lang.Boolean.parseBoolean;
 import static java.lang.Double.parseDouble;
 
+@SuppressWarnings({"WeakerAccess", "unused"})
 public class UnitParser {
 
-    public static final String SCHEMA_URL = "https://raw.githubusercontent.com/Chase22/JUCO/dev/src/main/resources/unitshema.xsd";
-    public static final Namespace ns = Namespace.getNamespace(SCHEMA_URL);
+    private static final String SCHEMA_URL = "https://raw.githubusercontent.com/Chase22/JUCO/dev/src/main/resources/unitshema.xsd";
+    private static final Namespace ns = Namespace.getNamespace(SCHEMA_URL);
 
-    public List<UnitGroup> parseFromFile(final InputStream stream) {
+    /**
+     * Parsed a List of {@link UnitGroup} from an InputStream
+     * @param stream The Stream of data to be parsed
+     * @return A list of the {@link UnitGroup} parsed from the stream
+     */
+    public List<UnitGroup> parseFromStream(final InputStream stream) {
         List<UnitGroup> unitGroups = new ArrayList<>();
         Document document;
 
@@ -57,6 +62,10 @@ public class UnitParser {
         }
 
         return unitGroups;
+    }
+
+    public List<UnitGroup> parseFromStream(File inputFile) throws FileNotFoundException {
+        return parseFromStream(new FileInputStream(inputFile));
     }
 
     private Unit parseUnit(Element unitElement) {

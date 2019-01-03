@@ -1,17 +1,14 @@
 package org.chase.juco.unit;
 
-import lombok.Data;
 import org.chase.juco.exceptions.NoBaseUnitException;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 /**
  * A group of units with one BaseUnit. Conversions are only allowed between units of the same group
  */
-@Data
-public class UnitGroup extends ArrayList<Unit> {
+@SuppressWarnings({"unused", "WeakerAccess"})
+public class UnitGroup {
 
     /**
      * The name uniquely identifying one group
@@ -22,7 +19,6 @@ public class UnitGroup extends ArrayList<Unit> {
      * The units associated with this group
      */
     private List<Unit> units = new ArrayList<>();
-
 
     /**
      * Get a unit by it's name or shorthand. It is first checked if a unit with the given name exists.
@@ -55,5 +51,43 @@ public class UnitGroup extends ArrayList<Unit> {
      */
     public Unit getBase() {
         return units.stream().filter(Unit::isBaseUnit).findFirst().orElseThrow(NoBaseUnitException::new);
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public List<Unit> getUnits() {
+        return this.units;
+    }
+
+    public void setName(final String name) {
+        this.name = name;
+    }
+
+    public void setUnits(final List<Unit> units) {
+        this.units = units;
+    }
+
+    @Override
+    public boolean equals(final Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        final UnitGroup unitGroup = (UnitGroup) o;
+        return Objects.equals(name, unitGroup.name) &&
+                Objects.equals(units, unitGroup.units);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, units);
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", UnitGroup.class.getSimpleName() + "[", "]")
+                .add("name='" + name + "'")
+                .add("units=" + units)
+                .toString();
     }
 }
