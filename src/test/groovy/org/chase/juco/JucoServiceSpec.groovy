@@ -7,8 +7,6 @@ import org.chase.juco.unit.UnitRegistry
 import spock.lang.Specification
 import spock.lang.Unroll
 
-import java.text.DecimalFormat
-
 class JucoServiceSpec extends Specification {
     public static final BigDecimal ERROR_MARGIN_PERCENT = 0.000001 //in %
 

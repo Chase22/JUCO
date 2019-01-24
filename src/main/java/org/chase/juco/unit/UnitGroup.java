@@ -3,12 +3,24 @@ package org.chase.juco.unit;
 import org.chase.juco.exceptions.NoBaseUnitException;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * A group of units with one BaseUnit. Conversions are only allowed between units of the same group
  */
 @SuppressWarnings({"unused", "WeakerAccess"})
 public class UnitGroup {
+
+    /**
+     * Creates a unitgroup with the given name and units. The Unit#unitGroup gets set to the returned UnitGroup
+     * @return a new UnitGroup
+     */
+    public static UnitGroup create(final String name, final List<Unit> units) {
+        UnitGroup group = new UnitGroup();
+        group.setName(name);
+        group.setUnits(units.stream().peek(unit -> unit.setUnitgroup(group)).collect(Collectors.toList()));
+        return group;
+    }
 
     /**
      * The name uniquely identifying one group
@@ -42,7 +54,10 @@ public class UnitGroup {
      * @return The Unit with the associated shorthand
      */
     public Optional<Unit> getUnitByShort(String shorthand) {
-        return units.stream().filter(unit -> unit.getShorthand().equalsIgnoreCase(shorthand)).findFirst();
+        return units.stream()
+                .filter(unit -> unit.getShorthand() != null)
+                .filter(unit -> unit.getShorthand().equalsIgnoreCase(shorthand))
+                .findFirst();
     }
 
     /**

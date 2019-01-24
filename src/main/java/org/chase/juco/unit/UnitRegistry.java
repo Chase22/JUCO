@@ -30,7 +30,7 @@ public class UnitRegistry {
      */
     public static void initialise() {
         Instance = new UnitRegistry();
-        Instance.groups = new UnitParser().parseFromStream(UnitRegistry.class.getResourceAsStream("/units.xml"));
+        Instance.groups = new UnitParser().parseFromStream(UnitRegistry.class.getResourceAsStream("/units.yml"));
     }
 
     private UnitRegistry(){}
