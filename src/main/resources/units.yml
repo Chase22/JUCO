@@ -16,7 +16,7 @@ length:
 
   astronomical unit:
     shorthand: AU
-    conversionRate: 6.684587122E12
+    conversionRate: 6.684587122E-12
 
   barleycorn:
     conversionRate: 118.11023622
@@ -264,3 +264,25 @@ temperature:
   Planck temperature:
     shorthand: ϴ
     conversionRate: 7.0579906e33
+
+weight:
+    gram:
+      conversionRate: 1
+      shorthand: g
+    Long Ton:
+      conversionRate: 9.842073304E-7
+      shorthand: it
+    Short Ton:
+      conversionRate: 0.0000011023
+    Pound:
+      conversionRate: 0.0022046244
+      shorthand: lbs
+    Ounce:
+      conversionRate: 0.0352739907
+      shorthand: oz
+    Carrat:
+      conversionRate: 5
+      shorthand: kt
+    Atomic Mass Unit:
+      conversionRate: 6.022136652E+23
+      shorthand: u
