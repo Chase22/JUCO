@@ -14,8 +14,7 @@ public class Amount {
     private double amount;
     private Unit unit;
 
-    @java.beans.ConstructorProperties({"amount", "unit"})
-    Amount(final double amount, final Unit unit) {
+    public Amount(final double amount, final Unit unit) {
         this.amount = amount;
         this.unit = unit;
     }
