@@ -1,0 +1,288 @@
+length:
+  meter:
+    shorthand: m
+    conversionRate: 1
+    baseUnit: true
+
+  aln:
+    conversionRate: 1.6841317365
+
+  angstrom:
+    shorthand: A
+    conversionRate: 10000000000
+
+  arpent:
+    conversionRate: 0.0170877078
+
+  astronomical unit:
+    shorthand: AU
+    conversionRate: 6.684587122E-12
+
+  barleycorn:
+    conversionRate: 118.11023622
+
+  Bohr radius:
+    shorthand: b
+    conversionRate: 18897259886
+
+  caliber:
+    shorthand: cl
+    conversionRate: 3937.007874
+
+  chain:
+    shorthand: ch
+    conversionRate: 0.0497096954
+
+  chain (US survey):
+    shorthand: ch
+    conversionRate: 0.049709596
+
+  cubit (Greek):
+    conversionRate: 2.1608166158
+
+  cubit (UK):
+    conversionRate: 2.1872265967
+
+  Earth's equatorial radius:
+    conversionRate: 1.567850289E7
+
+  Earth's polar radius:
+    conversionRate: 1.573124242E7
+
+  Electron radius (classical):
+    conversionRate: 354869043883290
+
+  ell:
+    conversionRate: 0.8748906387
+
+  famn:
+    conversionRate: 0.5613772455
+
+  fathom:
+    shorthand: fath
+    conversionRate: 0.5468066492
+
+  fathom (US survey):
+    shorthand: fath
+    conversionRate: 0.5468055556
+
+  fermi:
+    shorthand: F
+    conversionRate: 1000000000000000
+
+  finger (cloth):
+    conversionRate: 8.7489063867
+
+  fingerbreadth:
+    conversionRate: 52.49343832
+
+  foot:
+    shorthand: ft
+    conversionRate: 3.280839895
+
+  foot (US survey):
+    shorthand: ft
+    conversionRate: 3.2808333333
+
+  furlong:
+    shorthand: fur
+    conversionRate: 0.0049709695
+
+  furlong (US survey):
+    shorthand: fur
+    conversionRate: 0.0049709596
+
+  hand:
+    conversionRate: 9.842519685
+
+  handbreadth:
+    conversionRate: 13.12335958
+
+  inch:
+    shorthand: in
+    conversionRate: 39.37007874
+
+  inch (US survey):
+    shorthand: in
+    conversionRate: 39.37
+
+  ken:
+    conversionRate: 0.4720632942
+
+  league:
+    shorthand: lea
+    conversionRate: 0.0002071237
+
+  league (statute):
+    shorthand: st.league
+    conversionRate: 0.0002071233
+
+  light year:
+    shorthand: ly
+    conversionRate: 1.057000834E16
+
+  link:
+    shorthand: li
+    conversionRate: 4.9709695379
+
+  link (US survey):
+    shorthand: li
+    conversionRate: 4.970959596
+
+  long cubit:
+    conversionRate: 1.8747656543
+
+  long reed:
+    conversionRate: 0.3124609424
+
+  micron:
+    shorthand: µ
+    conversionRate: 1000000
+
+  mil:
+    shorthand: mil
+    conversionRate: 39370.07874
+
+  mile:
+    shorthand: mi
+    conversionRate: 0.0006213712
+
+  mile (Roman):
+    conversionRate: 0.0006757652
+
+  mile (statute):
+    shorthand: mi
+    conversionRate: 0.0006213699
+
+  mile (US survey):
+    shorthand: mi
+    conversionRate: 0.0006213699
+
+  nail (cloth):
+    conversionRate: 17.497812773
+
+  nautical league:
+    conversionRate: 0.0001799856
+
+  nautical league (UK):
+    conversionRate: 0.0001798706
+
+  nautical mile:
+    conversionRate: 0.0005399568
+
+  nautical mile (UK):
+    shorthand: NM (UK)
+    conversionRate: 0.0005396118
+
+  parsec:
+    shorthand: pc
+    conversionRate: 3.240779289E17
+
+  perch:
+    conversionRate: 0.1988387815
+
+  pica:
+    conversionRate: 236.22047244
+
+  Planck length:
+    conversionRate: 6.187927353E+34
+
+  point:
+    conversionRate: 2834.6456693
+
+  pole:
+    conversionRate: 0.1988387815
+
+  reed:
+    conversionRate: 0.3645377661
+
+  rod:
+    shorthand: rd
+    conversionRate: 0.1988387815
+
+  rod (US survey):
+    shorthand: rd
+    conversionRate: 0.1988383838
+
+  Roman actus:
+    conversionRate: 0.0281859098
+
+  rope:
+    conversionRate: 0.1640419948
+
+  Russian archin:
+    conversionRate: 1.4060742407
+
+  span (cloth):
+    conversionRate: 4.3744531934
+
+  Sun's radius:
+    conversionRate: 1.436781609E9
+
+  twip:
+    conversionRate: 56692.913386
+
+  vara castellana:
+    conversionRate: 1.197386823
+
+  vara conuquera:
+    conversionRate: 0.399128941
+
+  vara de tarea:
+    conversionRate: 0.399128941
+
+  Xunit:
+    shorthand: X
+    conversionRate: 9979243174198
+
+  yard:
+    shorthand: yd
+    conversionRate: 1.0936132983
+
+temperature:
+  Kelvin:
+    shorthand: K
+    conversionRate: 1
+    baseUnit: true
+
+  Celcius:
+    shorthand: C
+    conversionRate: 272.15
+
+  Fahrenheit:
+    shorthand: F
+    conversionRate: 457.87
+
+  Rankine:
+    shorthand: R
+    conversionRate: 1.8
+
+  Reaumur:
+    shorthand: Re
+    conversionRate: 217.72
+
+  Planck temperature:
+    shorthand: ϴ
+    conversionRate: 7.0579906e33
+
+weight:
+    gram:
+      conversionRate: 1
+      shorthand: g
+    Long Ton:
+      conversionRate: 9.842073304E-7
+      shorthand: it
+    Short Ton:
+      conversionRate: 0.0000011023
+    Pound:
+      conversionRate: 0.0022046244
+      shorthand: lbs
+    Ounce:
+      conversionRate: 0.0352739907
+      shorthand: oz
+    Carrat:
+      conversionRate: 5
+      shorthand: kt
+    Atomic Mass Unit:
+      conversionRate: 6.022136652E+23
+      shorthand: u

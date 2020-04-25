@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<groups xmlns="https://raw.githubusercontent.com/Chase22/JUCO/dev/src/main/resources/unitshema.xsd">
+    <group name="length">
+        <!-- Conversion rates taken from www.unitconverters.net -->
+        <unit>
+            <name>meter</name>
+            <shorthand>m</shorthand>
+            <conversionRate>1</conversionRate>
+            <baseUnit>true</baseUnit>
+        </unit>
+        <unit>
+            <name>aln</name>
+            <conversionRate>1.6841317365</conversionRate>
+        </unit>
+        <unit>
+            <name>angstrom</name>
+            <shorthand>A</shorthand>
+            <conversionRate>10000000000</conversionRate>
+        </unit>
+        <unit>
+            <name>arpent</name>
+            <conversionRate>0.0170877078</conversionRate>
+        </unit>
+        <unit>
+            <name>astronomical unit</name>
+            <shorthand>AU</shorthand>
+            <conversionRate>6.684587122E-12</conversionRate>
+        </unit>
+        <unit>
+            <name>barleycorn</name>
+            <conversionRate>118.11023622</conversionRate>
+        </unit>
+        <unit>
+            <name>Bohr radius</name>
+            <shorthand>b</shorthand>
+            <conversionRate>18897259886</conversionRate>
+        </unit>
+        <unit>
+            <name>caliber</name>
+            <shorthand>cl</shorthand>
+            <conversionRate>3937.007874</conversionRate>
+        </unit>
+        <unit>
+            <name>chain</name>
+            <shorthand>ch</shorthand>
+            <conversionRate>0.0497096954</conversionRate>
+        </unit>
+        <unit>
+            <name>chain (US survey)</name>
+            <shorthand>ch</shorthand>
+            <conversionRate>0.049709596</conversionRate>
+        </unit>
+        <unit>
+            <name>cubit (Greek)</name>
+            <conversionRate>2.1608166158</conversionRate>
+        </unit>
+        <unit>
+            <name>cubit (UK)</name>
+            <conversionRate>2.1872265967</conversionRate>
+        </unit>
+        <unit>
+            <name>Earth's equatorial radius</name>
+            <conversionRate>1.567850289E-7</conversionRate>
+        </unit>
+        <unit>
+            <name>Earth's polar radius</name>
+            <conversionRate>1.573124242E-7</conversionRate>
+        </unit>
+        <unit>
+            <name>Electron radius (classical)</name>
+            <conversionRate>354869043883290</conversionRate>
+        </unit>
+        <unit>
+            <name>ell</name>
+            <conversionRate>0.8748906387</conversionRate>
+        </unit>
+        <unit>
+            <name>famn</name>
+            <conversionRate>0.5613772455</conversionRate>
+        </unit>
+        <unit>
+            <name>fathom</name>
+            <shorthand>fath</shorthand>
+            <conversionRate>0.5468066492</conversionRate>
+        </unit>
+        <unit>
+            <name>fathom (US survey)</name>
+            <shorthand>fath</shorthand>
+            <conversionRate>0.5468055556</conversionRate>
+        </unit>
+        <unit>
+            <name>fermi</name>
+            <shorthand>F</shorthand>
+            <conversionRate>1000000000000000</conversionRate>
+        </unit>
+        <unit>
+            <name>finger (cloth)</name>
+            <conversionRate>8.7489063867</conversionRate>
+        </unit>
+        <unit>
+            <name>fingerbreadth</name>
+            <conversionRate>52.49343832</conversionRate>
+        </unit>
+        <unit>
+            <name>foot</name>
+            <shorthand>ft</shorthand>
+            <conversionRate>3.280839895</conversionRate>
+        </unit>
+        <unit>
+            <name>foot (US survey)</name>
+            <shorthand>ft</shorthand>
+            <conversionRate>3.2808333333</conversionRate>
+        </unit>
+        <unit>
+            <name>furlong</name>
+            <shorthand>fur</shorthand>
+            <conversionRate>0.0049709695</conversionRate>
+        </unit>
+        <unit>
+            <name>furlong (US survey)</name>
+            <shorthand>fur</shorthand>
+            <conversionRate>0.0049709596</conversionRate>
+        </unit>
+        <unit>
+            <name>hand</name>
+            <conversionRate>9.842519685</conversionRate>
+        </unit>
+        <unit>
+            <name>handbreadth</name>
+            <conversionRate>13.12335958</conversionRate>
+        </unit>
+        <unit>
+            <name>inch</name>
+            <shorthand>in</shorthand>
+            <conversionRate>39.37007874</conversionRate>
+        </unit>
+        <unit>
+            <name>inch (US survey)</name>
+            <shorthand>in</shorthand>
+            <conversionRate>39.37</conversionRate>
+        </unit>
+        <unit>
+            <name>ken</name>
+            <conversionRate>0.4720632942</conversionRate>
+        </unit>
+        <unit>
+            <name>league</name>
+            <shorthand>lea</shorthand>
+            <conversionRate>0.0002071237</conversionRate>
+        </unit>
+        <unit>
+            <name>league (statute)</name>
+            <shorthand>st.league</shorthand>
+            <conversionRate>0.0002071233</conversionRate>
+        </unit>
+        <unit>
+            <name>light year</name>
+            <shorthand>ly</shorthand>
+            <conversionRate>1.057000834E-16</conversionRate>
+        </unit>
+        <unit>
+            <name>link</name>
+            <shorthand>li</shorthand>
+            <conversionRate>4.9709695379</conversionRate>
+        </unit>
+        <unit>
+            <name>link (US survey)</name>
+            <shorthand>li</shorthand>
+            <conversionRate>4.970959596</conversionRate>
+        </unit>
+        <unit>
+            <name>long cubit</name>
+            <conversionRate>1.8747656543</conversionRate>
+        </unit>
+        <unit>
+            <name>long reed</name>
+            <conversionRate>0.3124609424</conversionRate>
+        </unit>
+        <unit>
+            <name>micron</name>
+            <shorthand>µ</shorthand>
+            <conversionRate>1000000</conversionRate>
+        </unit>
+        <unit>
+            <name>mil</name>
+            <shorthand>mil</shorthand>
+            <conversionRate>39370.07874</conversionRate>
+        </unit>
+        <unit>
+            <name>mile</name>
+            <shorthand>mi</shorthand>
+            <conversionRate>0.0006213712</conversionRate>
+        </unit>
+        <unit>
+            <name>mile (Roman)</name>
+            <conversionRate>0.0006757652</conversionRate>
+        </unit>
+        <unit>
+            <name>mile (statute)</name>
+            <shorthand>mi</shorthand>
+            <conversionRate>0.0006213699</conversionRate>
+        </unit>
+        <unit>
+            <name>mile (US survey)</name>
+            <shorthand>mi</shorthand>
+            <conversionRate>0.0006213699</conversionRate>
+        </unit>
+        <unit>
+            <name>nail (cloth)</name>
+            <conversionRate>17.497812773</conversionRate>
+        </unit>
+        <unit>
+            <name>nautical league</name>
+            <conversionRate>0.0001799856</conversionRate>
+        </unit>
+        <unit>
+            <name>nautical league (UK)</name>
+            <conversionRate>0.0001798706</conversionRate>
+        </unit>
+        <unit>
+            <name>nautical mile</name>
+            <conversionRate>0.0005399568</conversionRate>
+        </unit>
+        <unit>
+            <name>nautical mile (UK)</name>
+            <shorthand>NM (UK)</shorthand>
+            <conversionRate>0.0005396118</conversionRate>
+        </unit>
+        <unit>
+            <name>parsec</name>
+            <shorthand>pc</shorthand>
+            <conversionRate>3.240779289E-17</conversionRate>
+        </unit>
+        <unit>
+            <name>perch</name>
+            <conversionRate>0.1988387815</conversionRate>
+        </unit>
+        <unit>
+            <name>pica</name>
+            <conversionRate>236.22047244</conversionRate>
+        </unit>
+        <unit>
+            <name>Planck length</name>
+            <conversionRate>6.187927353E+34</conversionRate>
+        </unit>
+        <unit>
+            <name>point</name>
+            <conversionRate>2834.6456693</conversionRate>
+        </unit>
+        <unit>
+            <name>pole</name>
+            <conversionRate>0.1988387815</conversionRate>
+        </unit>
+        <unit>
+            <name>reed</name>
+            <conversionRate>0.3645377661</conversionRate>
+        </unit>
+        <unit>
+            <name>rod</name>
+            <shorthand>rd</shorthand>
+            <conversionRate>0.1988387815</conversionRate>
+        </unit>
+        <unit>
+            <name>rod (US survey)</name>
+            <shorthand>rd</shorthand>
+            <conversionRate>0.1988383838</conversionRate>
+        </unit>
+        <unit>
+            <name>Roman actus</name>
+            <conversionRate>0.0281859098</conversionRate>
+        </unit>
+        <unit>
+            <name>rope</name>
+            <conversionRate>0.1640419948</conversionRate>
+        </unit>
+        <unit>
+            <name>Russian archin</name>
+            <conversionRate>1.4060742407</conversionRate>
+        </unit>
+        <unit>
+            <name>span (cloth)</name>
+            <conversionRate>4.3744531934</conversionRate>
+        </unit>
+        <unit>
+            <name>Sun's radius</name>
+            <conversionRate>1.436781609E-9</conversionRate>
+        </unit>
+        <unit>
+            <name>twip</name>
+            <conversionRate>56692.913386</conversionRate>
+        </unit>
+        <unit>
+            <name>vara castellana</name>
+            <conversionRate>1.197386823</conversionRate>
+        </unit>
+        <unit>
+            <name>vara conuquera</name>
+            <conversionRate>0.399128941</conversionRate>
+        </unit>
+        <unit>
+            <name>vara de tarea</name>
+            <conversionRate>0.399128941</conversionRate>
+        </unit>
+        <unit>
+            <name>X-unit</name>
+            <shorthand>X</shorthand>
+            <conversionRate>9979243174198</conversionRate>
+        </unit>
+        <unit>
+            <name>yard</name>
+            <shorthand>yd</shorthand>
+            <conversionRate>1.0936132983</conversionRate>
+        </unit>
+    </group>
+    <group name="temperature">
+        <unit>
+            <name>Kelvin</name>
+            <shorthand>K</shorthand>
+            <conversionRate>1</conversionRate>
+            <baseUnit>true</baseUnit>
+        </unit>
+        <unit>
+            <name>Celcius</name>
+            <shorthand>C</shorthand>
+            <conversionRate>-272.15</conversionRate>
+        </unit>
+        <unit>
+            <name>Fahrenheit</name>
+            <shorthand>F</shorthand>
+            <conversionRate>-457.87</conversionRate>
+        </unit>
+        <unit>
+            <name>Rankine</name>
+            <shorthand>R</shorthand>
+            <conversionRate>1.8</conversionRate>
+        </unit>
+        <unit>
+            <name>Reaumur</name>
+            <shorthand>Re</shorthand>
+            <conversionRate>-217.72</conversionRate>
+        </unit>
+        <unit>
+            <name>Planck temperature</name>
+            <shorthand>ϴ</shorthand>
+            <conversionRate>7.0579906e-33</conversionRate>
+        </unit>
+    </group>
+</groups>
